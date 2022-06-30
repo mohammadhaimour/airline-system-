@@ -34,4 +34,3 @@ setInterval(() => {
     console.log(`Manager: new flight with ID ${flight.Details.flightID} have been scheduled`)
     mainConnection.emit("new-flight", flight)
 }, 10000)
-
